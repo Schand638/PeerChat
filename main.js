@@ -1,11 +1,11 @@
-let APP_ID = "YOU-APP-ID"
+let APP_ID = "94bbce4b6be046e489c5c7f7398ba097"
 
 
-let token = null;
+let token = "007eJxTYNC3PH3MSvtkZ6uXu8fXbVvVGysXNLLOmLHyjMPujTmiBmwKDJYmSUnJqSZJZkmpBiZmqSYWlsmmyeZp5saWFkmJBpbmhlUm6Q2BjAyqbldZGBkgEMRnZygwKnBJzc1nYAAAXyke1A==";
 let uid = String(Math.floor(Math.random() * 10000))
 
 let client;
-let channel;
+let channel="p2pDemo";
 
 let queryString = window.location.search
 let urlParams = new URLSearchParams(queryString)
