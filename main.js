@@ -5,7 +5,7 @@ let token = "007eJxTYNC3PH3MSvtkZ6uXu8fXbVvVGysXNLLOmLHyjMPujTmiBmwKDJYmSUnJqSZJ
 let uid = String(Math.floor(Math.random() * 10000))
 
 let client;
-let channel="p2pDemo";
+let channel;
 
 let queryString = window.location.search
 let urlParams = new URLSearchParams(queryString)
